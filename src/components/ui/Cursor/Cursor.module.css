@@ -1,0 +1,5 @@
+/* Cursor.module.css */
+/* Most styles handled by GSAP, keeping this for structural fallback if needed */
+.cursor {
+    will-change: transform, width, height;
+}

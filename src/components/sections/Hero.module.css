@@ -1,0 +1,118 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    /* Will be 100dvh via Tailwind/global if configured, keeping standard for now */
+    height: 100dvh;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.heading {
+    margin-top: 40px;
+}
+
+.heading h1 {
+    margin-left: 50px;
+    font-family: var(--font-secondary);
+    font-optical-sizing: auto;
+    line-height: 1;
+    font-style: normal;
+    color: #a3a3a3;
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.secondh1 {
+    margin-left: 235px;
+    margin-top: -24px;
+    letter-spacing: 2px;
+}
+
+.blocktext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+}
+
+.blocktext h5 {
+    text-align: right;
+    margin-top: -6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.secondheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10vh;
+    /* Adjusted from fixed px for responsiveness */
+    padding-right: 52px;
+}
+
+.secondheadings h5 {
+    margin-top: 0.5vw;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.boundingelem,
+.boundingelem2 {
+    transform: translateY(100%);
+    /* Initial state for animation */
+    display: block;
+}
+
+.herofooter {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 52px;
+}
+
+.herofooter a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.iconset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 900;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #a3a3a3;
+}
+
+.circle img {
+    width: 1em;
+    height: 1em;
+}

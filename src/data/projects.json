@@ -1,0 +1,37 @@
+[
+    {
+        "id": "lucid-motors",
+        "title": "Lucid Motors",
+        "year": "2023",
+        "imageUrl": "/assets/lucid-motors.webp",
+        "link": "#"
+    },
+    {
+        "id": "baron-capital",
+        "title": "Baron Capital",
+        "year": "2023",
+        "imageUrl": "/assets/baron-capital.webp",
+        "link": "#"
+    },
+    {
+        "id": "nfl",
+        "title": "NFL",
+        "year": "2024",
+        "imageUrl": "/assets/nfl.webp",
+        "link": "#"
+    },
+    {
+        "id": "placenew",
+        "title": "Placenew",
+        "year": "2024",
+        "imageUrl": "/assets/placenew.webp",
+        "link": "#"
+    },
+    {
+        "id": "somos",
+        "title": "Somos",
+        "year": "2023",
+        "imageUrl": "/assets/somos.webp",
+        "link": "#"
+    }
+]

@@ -1,0 +1,57 @@
+.gallery {
+    padding-top: 100px;
+    /* Space from hero */
+    padding-bottom: 100px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 2.6vw;
+    border-top: 1px solid #a3a3a3;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.itemLast {
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.item:hover {
+    background-color: #1a1a1a;
+}
+
+.item h1 {
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 500;
+    color: #a3a3a3;
+    mix-blend-mode: normal;
+    z-index: 2;
+    /* Text above image? No, image above text? Legacy had image absolute */
+}
+
+/* 
+   Legacy had image inside .elem. 
+   We will keep it inside, but controlled via JS.
+*/
+.floatingImage {
+    opacity: 0;
+    height: 140%;
+    /* Relative to item height */
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    top: 50%;
+    /* Initial centering */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    will-change: transform, top, left, opacity;
+}

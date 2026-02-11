@@ -1,0 +1,24 @@
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 32px 52px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-black);
+    z-index: 1000;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav h4 {
+    font-size: 16px;
+    font-weight: 600;
+}

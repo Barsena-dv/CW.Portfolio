@@ -1,0 +1,15 @@
+.subscribe {
+    background-color: var(--color-black);
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 4vw;
+    /* Slightly adjusted for better alignment */
+    padding-bottom: 120px;
+}
+
+.subscribe h5 {
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
